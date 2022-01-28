@@ -1,0 +1,36 @@
+input[name="accordion-select"], .panel-block {
+  display: none;
+}
+label.panel-heading {
+  cursor: pointer;
+  display: block;
+}
+
+/* the magic */
+#panel-1:checked ~ .section > .panel > .body-1,
+#panel-2:checked ~ .section > .panel > .body-2,
+#panel-3:checked ~ .section > .panel > .body-3,
+#panel-4:checked ~ .section > .panel > .body-4,
+#panel-5:checked ~ .section > .panel > .body-5,
+#panel-6:checked ~ .section > .panel > .body-6,
+#panel-7:checked ~ .section > .panel > .body-7,
+#panel-8:checked ~ .section > .panel > .body-8,
+#panel-9:checked ~ .section > .panel > .body-9,
+#panel-10:checked ~ .section > .panel > .body-10,
+#panel-11:checked ~ .section > .panel > .body-11,
+#panel-12:checked ~ .section > .panel > .body-12,
+#panel-13:checked ~ .section > .panel > .body-13,
+#panel-14:checked ~ .section > .panel > .body-14,
+#panel-15:checked ~ .section > .panel > .body-15,
+#panel-16:checked ~ .section > .panel > .body-16,
+#panel-17:checked ~ .section > .panel > .body-17,
+#panel-18:checked ~ .section > .panel > .body-18,
+#panel-19:checked ~ .section > .panel > .body-19,
+#panel-20:checked ~ .section > .panel > .body-20,
+#panel-21:checked ~ .section > .panel > .body-21,
+#panel-22:checked ~ .section > .panel > .body-22,
+#panel-23:checked ~ .section > .panel > .body-23,
+#panel-24:checked ~ .section > .panel > .body-24,
+#panel-25:checked ~ .section > .panel > .body-25 {
+  display: flex;
+}
